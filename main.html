@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- ! header start -->
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img
+              src="https://img.freepik.com/premium-vector/online-shop-logo-designs-concept-vector-online-store-logo-designs_7649-661.jpg?w=740"
+              alt=""
+            />
+          </div>
+          <nav class="header__nav nav">
+            <div class="nav__link">
+              <select name="" id="" class="select">
+                <option value="Ноутбук" class="option option-1">
+                  <a href="#"><p>Ноутбуки</p></a>
+                </option>
+                <option value="Телефон" class="option option-2">
+                  <a href="#"><p>Телефоны</p></a>
+                </option>
+                <option value="Аксессуары" class="option option-3">
+                  <a href="#"><p>Аксессуары</p></a>
+                </option>
+              </select>
+            </div>
+          </nav>
+          <div class="header__search">
+            <input
+              type="text"
+              class="search__input input inpSearch"
+              placeholder="Искать товары"
+            />
+          </div>
+          <div class="header__add">
+            <a href="#" class="header__add-link"><p>Добавить</p></a>
+          </div>
+          <div class="header__sign-in">
+            <button class="sign-in__btn btn">Войти</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ! header end -->
+
+    <!-- ! content start -->
+    <div class="content">
+      <div class="wrapper">
+        <div class="content__notebooks"></div>
+        <div class="content__mobiles"></div>
+        <div class="content__acces"></div>
+      </div>
+    </div>
+    <!-- ! content start -->
+
+    <!-- ! modal window login start -->
+    <div class="wrapper">
+      <div class="modal__sing-in sign-in">
+        <div class="sign-in__p">
+          <p>
+            Войдите в свой аккаунт или зарегистрируйтесь, чтобы делать покупки,
+            отслеживать заказы, получать персональные скидки.
+          </p>
+        </div>
+        <div class="sign-in__inputs">
+          <input class="input" placeholder="Номер телефона" type="text" />
+          <input class="input" placeholder="Введите пароль" type="text" />
+          <div class="input-checkbox">
+            <input class="checkbox" type="checkbox" />
+            <p>Запомнить</p>
+          </div>
+        </div>
+        <div class="sign-in__button">
+          <button class="sign-in__button_login">Войти</button>
+        </div>
+        <div class="header__sign-in sign-in__button">
+          <button class="exit__btn sign-in__button_login">Выйти</button>
+        </div>
+        <div class="login">
+          <a href="#"><p>Регистрация</p></a>
+        </div>
+      </div>
+    </div>
+    <!-- ! modal window login  end-->
+
+    <!-- !modal window sign-in -->
+    <div class="wrapper">
+      <div class="modal__registr">
+        <div class="sign-in__inputs">
+          <input class="input inpNumber" placeholder="Телефон" type="text" />
+          <input class="input inpSurname" placeholder="Фамилия" type="text" />
+          <input class="input inpName" placeholder="Имя" type="text" />
+          <input
+            class="input inpPassword"
+            placeholder="Введите пароль"
+            type="text"
+          />
+          <input
+            class="input inpPasswordEx"
+            placeholder="Повторите пароль"
+            type="text"
+          />
+        </div>
+        <div class="sign-in__p">
+          <p>
+            Войдите в свой аккаунт или зарегистрируйтесь, чтобы делать покупки,
+            отслеживать заказы, получать персональные скидки.
+          </p>
+        </div>
+        <div class="sign-in__button sign-in__button_active">
+          <button>Регистрация</button>
+        </div>
+        <div class="sign-in__button sign-in__button_active">
+          <button class="cancel">Отменить</button>
+        </div>
+      </div>
+    </div>
+    <!-- !modal window sign-in -->
+
+    <!-- !modal window catalog create start -->
+    <div class="wrapper">
+      <div class="create__cards cards__ssh">
+        <div class="sign-in__p">
+          <p>Заполнить</p>
+        </div>
+        <div class="sign-in__inputs">
+          <div class="sign-in__inputs">
+            <input
+              class="input inpType"
+              placeholder="Введите тип товара"
+              type="text"
+            />
+            <input
+              class="input inpModel"
+              placeholder="Введите модель"
+              type="text"
+            />
+            <input
+              class="input inpYear"
+              placeholder="Введите год производства"
+              type="text"
+            />
+            <input
+              class="input inpPrice"
+              placeholder="Введите цену"
+              type="text"
+            />
+            <input
+              class="input inpImgs"
+              placeholder="Введите ссылку на картинку"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="sign-in__button">
+          <button class="addButton">Добавить</button>
+        </div>
+        <div class="header__sign-in sign-in__button">
+          <button class="sign-in__btn btn add__menu-exit">Выйти</button>
+        </div>
+      </div>
+    </div>
+    <!-- !modal window catalog create end -->
+
+    <!-- !modal window add-catalog start-->
+    <div class="wrapper">
+      <div class="modal__edit cards">
+        <div class="sign-in__p">
+          <p>Заполнить</p>
+        </div>
+        <div class="sign-in__inputs">
+          <div class="sign-in__inputs">
+            <input
+              class="input inpTypeEd"
+              placeholder="Введите тип товара"
+              type="text"
+            />
+            <input
+              class="input inpModelEd"
+              placeholder="Введите модель"
+              type="text"
+            />
+            <input
+              class="input inpYearEd"
+              placeholder="Введите год производства"
+              type="text"
+            />
+            <input
+              class="input inpPriceEd"
+              placeholder="Введите цену"
+              type="text"
+            />
+            <input
+              class="input inpImgsEd"
+              placeholder="Введите ссылку на картинку"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="sign-in__button">
+          <button class="saveBtnEdit">Изменить</button>
+        </div>
+      </div>
+    </div>
+    <!-- !modal window add-catalog end-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

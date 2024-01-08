@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "8767",
+      "name": "фф",
+      "surname": "фф",
+      "number": "фф",
+      "password": "фф",
+      "passwordEx": "фф"
+    },
+    {
+      "id": "6e72",
+      "type": "aa",
+      "notebooks": "aa",
+      "mobiles": "aaa",
+      "acces": "aa",
+      "img": "aa"
+    },
+    {
+      "id": "becb",
+      "type": "aa",
+      "notebooks": "aa",
+      "mobiles": "aaa",
+      "acces": "aa",
+      "img": "aa"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "477c",
+      "type": "Ноутбук",
+      "model": "skfjslk",
+      "year": "aaa",
+      "price": "aaaa",
+      "img": "https://itkvariat.com/uploads/posts/2018-07/medium/1531409230_394754f5-2abc-4af2-82a9-e080480c4d1c.jpg"
+    },
+    {
+      "id": "ccba1",
+      "type": "Телефон",
+      "model": "Айфон 14 Pro",
+      "year": "2026",
+      "price": "111111",
+      "img": "https://login.kg/image/cache/catalog/new/Phones/Apple/iPhone%2014/Pro-Pro%20Max/1-500x400.jpg"
+    },
+    {
+      "id": "8432",
+      "type": "Аксессуары",
+      "model": "AirPods Pro",
+      "year": "2020",
+      "price": "21000",
+      "img": "https://www.myphone.kg/files/media/8/8512.jpg"
+    },
+    {
+      "id": "8432",
+      "type": "Аксессуары",
+      "model": "AirPods Pro",
+      "year": "2020",
+      "price": "21000",
+      "img": "https://www.myphone.kg/files/media/8/8512.jpg"
+    },
+    {
+      "id": "8432",
+      "type": "Аксессуары",
+      "model": "AirPods Pro",
+      "year": "2020",
+      "price": "21000",
+      "img": "https://www.myphone.kg/files/media/8/8512.jpg"
+    },
+    {
+      "id": "8432",
+      "type": "Аксессуары",
+      "model": "AirPods Pro",
+      "year": "2020",
+      "price": "21000",
+      "img": "https://www.myphone.kg/files/media/8/8512.jpg"
+    },
+    {
+      "id": "9a60",
+      "type": "Телефон",
+      "model": "Samsung Z-Fold",
+      "year": "2023",
+      "price": "100000",
+      "img": "https://myphone.kg/files/media/21/21031.webp"
+    }
+  ]
+}
